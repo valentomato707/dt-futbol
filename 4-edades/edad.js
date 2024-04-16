@@ -16,3 +16,13 @@ Escriba un programa que:
 Tip: consulten los métodos de la clase Date
 https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Date
 */
+
+const nacimiento = new Date('2003-7-16').getFullYear()
+const fecha = new Date().getFullYear()
+
+const edad = (nacimiento, fecha) => {
+  resultado = fecha - nacimiento
+  return resultado
+}
+
+console.log ('Su edad es de ' + edad(nacimiento, fecha) + ' años.')
