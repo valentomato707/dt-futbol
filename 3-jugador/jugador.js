@@ -11,8 +11,8 @@ Escriba un programa que:
 */
 
 const jugador = {
-  nombre: 'Aladín',
-  apellido: 'Ortíz',
-  apodo: 'Ala'
+  nombre: 'Luciano',
+  apellido: 'Rodríguez',
+  apodo: 'Lucho'
 }
 console.log('¡Un gusto, ' + jugador.nombre + ' "' + jugador.apodo + '" ' + jugador.apellido + '!')
