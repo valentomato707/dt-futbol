@@ -15,4 +15,9 @@ const jugador = {
   apellido: 'Rodríguez',
   apodo: 'Lucho'
 }
-console.log('¡Un gusto, ' + jugador.nombre + ' "' + jugador.apodo + '" ' + jugador.apellido + '!')
+
+// console.log('¡Un gusto, ' + jugador.nombre + ' "' + jugador.apodo + '" ' + jugador.apellido + '!')
+
+let jugadores = () => 'Jugador: ' + jugador.nombre + ' ' + jugador.apellido + '.'
+
+module.exports = { jugadores }
